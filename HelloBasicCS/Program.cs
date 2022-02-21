@@ -1,4 +1,5 @@
 ﻿using System;
+using HelloBasicCS.types;
 
 namespace HelloBasicCS
 {
@@ -8,7 +9,8 @@ namespace HelloBasicCS
         {
             Console.WriteLine("Hello World!");
 
-
+            // Playing with enums
+            PlayWithEnum.CheckEnumContent();
 
         }
     }
