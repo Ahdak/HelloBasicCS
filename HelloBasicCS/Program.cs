@@ -69,6 +69,10 @@ namespace HelloBasicCS
             // Dico
             Console.WriteLine("-----Hello Dico");
             new PlayWithDisctionary().Play();
+
+            // HashTable
+            Console.WriteLine("-----Hello HashTable");
+            new PlayWithHashTable().Play();
         }
     }
 }
