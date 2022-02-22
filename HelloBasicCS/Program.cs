@@ -65,6 +65,10 @@ namespace HelloBasicCS
             // SortedList
             Console.WriteLine("-----Hello SortedList");
             new PlayWithSortedList().Play();
+
+            // Dico
+            Console.WriteLine("-----Hello Dico");
+            new PlayWithDisctionary().Play();
         }
     }
 }
