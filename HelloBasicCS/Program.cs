@@ -30,6 +30,15 @@ namespace HelloBasicCS
             Console.WriteLine("-----Hello Arrays");
             new PlayWithArrays().Play();
             new PlayWithArrays().PlayWithJaggedArray();
+
+            // Indexer
+            Console.WriteLine("-----Hello Indexers");
+            var indexer = new GenericIndexer<string>();
+            indexer[0] = "AE";
+            Console.WriteLine(indexer[0]);
+            Console.WriteLine(indexer["AE"]);
+            Console.WriteLine(indexer["AEZ"]);
+
         }
     }
 }
