@@ -25,6 +25,11 @@ namespace HelloBasicCS
             // Static class
             //new NonInstanciedCalculator(); // Cannot instanciate static class
             Console.WriteLine(NonInstanciedCalculator.sum(1,2));
+
+            // Arryas
+            Console.WriteLine("-----Hello Arrays");
+            new PlayWithArrays().Play();
+            new PlayWithArrays().PlayWithJaggedArray();
         }
     }
 }
