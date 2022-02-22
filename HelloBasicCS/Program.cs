@@ -61,6 +61,10 @@ namespace HelloBasicCS
             // List
             Console.WriteLine("-----Hello List");
             new PlayWithList().Play();
+
+            // SortedList
+            Console.WriteLine("-----Hello SortedList");
+            new PlayWithSortedList().Play();
         }
     }
 }
