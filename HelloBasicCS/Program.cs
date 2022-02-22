@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.Generic;
 using System.Linq;
+using HelloBasicCS.collections;
 using HelloBasicCS.poo;
 using HelloBasicCS.types;
 
@@ -39,6 +42,25 @@ namespace HelloBasicCS
             Console.WriteLine(indexer["AE"]);
             Console.WriteLine(indexer["AEZ"]);
 
+            // Generic
+            Console.WriteLine("-----Hello Generic");
+            var gen = new KeyValuePairGeneric<int, string>();
+            gen.Key = 1;
+            gen.Value = "V";
+            Console.WriteLine(gen.Key + " " + gen.Value);
+
+            // constrains
+            new GenericWithConstraint<MySubType>();
+            // new GenericWithConstraint<string>(); => Not compile
+            new GenericWithConstraintWithNew<ArrayList>();
+
+            // ArrayList
+            Console.WriteLine("-----Hello ArrayList");
+            new PlayWithArrayList().Play();
+
+            // List
+            Console.WriteLine("-----Hello List");
+            new PlayWithList().Play();
         }
     }
 }

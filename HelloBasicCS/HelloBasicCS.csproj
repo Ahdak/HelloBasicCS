@@ -8,5 +8,6 @@
   <ItemGroup>
     <Folder Include="types\" />
     <Folder Include="poo\" />
+    <Folder Include="collections\" />
   </ItemGroup>
 </Project>
