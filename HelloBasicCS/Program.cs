@@ -71,8 +71,12 @@ namespace HelloBasicCS
             new PlayWithDisctionary().Play();
 
             // HashTable
-            Console.WriteLine("-----Hello HashTable");
             new PlayWithHashTable().Play();
+            Console.WriteLine("-----Hello HashTable");
+
+            // HashTable
+            Console.WriteLine("-----Hello HashTable");
+            new PlayWithTuples().Play();
         }
     }
 }
