@@ -9,5 +9,6 @@
     <Folder Include="types\" />
     <Folder Include="poo\" />
     <Folder Include="collections\" />
+    <Folder Include="exception\" />
   </ItemGroup>
 </Project>

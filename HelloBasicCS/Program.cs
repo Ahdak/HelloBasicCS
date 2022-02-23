@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using HelloBasicCS.collections;
+using HelloBasicCS.exception;
 using HelloBasicCS.poo;
 using HelloBasicCS.types;
 
@@ -75,8 +76,12 @@ namespace HelloBasicCS
             Console.WriteLine("-----Hello HashTable");
 
             // HashTable
-            Console.WriteLine("-----Hello HashTable");
             new PlayWithTuples().Play();
+            Console.WriteLine("-----Hello HashTable");
+
+            // Exception
+            Console.WriteLine("-----Hello Excpetion");
+            PlayWithException.Play();
         }
     }
 }
