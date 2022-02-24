@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using HelloBasicCS.collections;
 using HelloBasicCS.@delegate;
+using HelloBasicCS.events;
 using HelloBasicCS.exception;
 using HelloBasicCS.poo;
 using HelloBasicCS.types;
@@ -87,6 +88,11 @@ namespace HelloBasicCS
             // Delegate
             Console.WriteLine("-----Hello Delegate");
             new PlayWithDelegate().Play();
+
+            // Events
+            Console.WriteLine("-----Hello Events");
+            new EventProcessing().Play();
         }
+
     }
 }

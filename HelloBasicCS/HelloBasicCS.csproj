@@ -10,5 +10,6 @@
     <Folder Include="poo\" />
     <Folder Include="collections\" />
     <Folder Include="exception\" />
+    <Folder Include="events\" />
   </ItemGroup>
 </Project>
