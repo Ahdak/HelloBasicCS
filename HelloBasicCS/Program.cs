@@ -6,6 +6,7 @@ using HelloBasicCS.collections;
 using HelloBasicCS.@delegate;
 using HelloBasicCS.events;
 using HelloBasicCS.exception;
+using HelloBasicCS.extensionmethod;
 using HelloBasicCS.poo;
 using HelloBasicCS.types;
 
@@ -94,8 +95,12 @@ namespace HelloBasicCS
             new EventProcessing().Play();
 
             // Co-contravariance
-            Console.WriteLine("-----Hello Co-ContraVariance");
             new PlayWithCoContraVariance().Play();
+            Console.WriteLine("-----Hello Co-ContraVariance");
+
+            // Exntesion Method
+            Console.WriteLine("-----Hello Extension Method");
+            new PlayWithExtensionMethod().Play();
         }
 
     }

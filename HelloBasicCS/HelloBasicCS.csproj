@@ -11,5 +11,6 @@
     <Folder Include="collections\" />
     <Folder Include="exception\" />
     <Folder Include="events\" />
+    <Folder Include="extensionmethod\" />
   </ItemGroup>
 </Project>
