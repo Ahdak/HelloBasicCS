@@ -92,6 +92,10 @@ namespace HelloBasicCS
             // Events
             Console.WriteLine("-----Hello Events");
             new EventProcessing().Play();
+
+            // Co-contravariance
+            Console.WriteLine("-----Hello Co-ContraVariance");
+            new PlayWithCoContraVariance().Play();
         }
 
     }
